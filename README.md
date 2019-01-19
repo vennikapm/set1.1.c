@@ -9,13 +9,17 @@ while(n>0)
 {
 printf("enter number");
 scanf("%d",&num);
-if(num>=0)
+if(num>0)
 {
 printf("positive");
 }
+else if(num<0)
+{
+printf("negative);
+}
 else
 {
-printf("negative");
+printf("zero");
 }
 n--;
 }
